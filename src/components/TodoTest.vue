@@ -46,7 +46,6 @@
             @click="changeStatus(index)"
             :class="{
               'status-text-todo': todo.status === 'to-do',
-              'status-text-ongoing': todo.status === 'on-going',
               'status-text-finished': todo.status === 'finished',
             }"
           >
